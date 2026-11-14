@@ -13,7 +13,7 @@ export default function Navbar() {
           <Button to="/login" variant="secondary" className="px-4 py-2">
             Log in
           </Button>
-          <Button to="/login" className="px-4 py-2">
+          <Button to="/register" className="px-4 py-2">
             Get started
           </Button>
         </div>

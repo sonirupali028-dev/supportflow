@@ -13,7 +13,12 @@ export default function Login() {
         <Input id="password" type="password" label="Password" placeholder="••••••••" />
 
         <Button className="mt-2 w-full">Log in</Button>
-
+                <p className="text-center text-sm text-muted">
+          No account?{" "}
+          <Link to="/register" className="text-white underline-offset-4 hover:underline">
+            Register
+          </Link>
+        </p>
         <Link to="/" className="text-center text-sm text-muted hover:text-white">
           Back to home
         </Link>

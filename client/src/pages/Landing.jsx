@@ -32,7 +32,7 @@ export default function Landing() {
             from one clean dashboard.
           </p>
           <div className="mt-10 flex justify-center gap-3">
-            <Button to="/login">Get started</Button>
+            <Button to="/register">Get started</Button>
             <Button to="/login" variant="secondary">
               Log in
             </Button>
