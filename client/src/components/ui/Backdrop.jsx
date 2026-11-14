@@ -14,7 +14,6 @@ export default function Backdrop() {
             "radial-gradient(circle at 25% 30%, rgb(255 255 255 / 0.1), transparent 60%)",
         }}
       />
-
       {/* Second arc in the bottom-left corner */}
       <div
         className="absolute -bottom-[380px] -left-[260px] h-[800px] w-[800px] rounded-full border border-white/10"
