@@ -24,7 +24,7 @@ export default function Backdrop() {
       />
 
       {/* Soft blurred light blobs */}
-      <div className="absolute left-[18%] top-[28%] h-72 w-72 rounded-full bg-white/10 blur-3xl" />
+      <div className="absolute left-[32%] top-[30%] h-80 w-80 rounded-full bg-white/25 blur-3xl" />
       <div className="absolute bottom-[22%] right-[20%] h-64 w-64 rounded-full bg-white/[0.06] blur-3xl" />
     </div>
   );
